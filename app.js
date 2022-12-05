@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({
     extended: true
 }));
 
-mongoose.connect("mongodb+srv://gugaloko:3006@cluster0.vbilcjv.mongodb.net/todolistDB");
+mongoose.connect("mongodb+srv://gugaloko:1236@cluster0.vbilcjv.mongodb.net/todolistDB");
 
 const itemsSchema = new mongoose.Schema({
     name: String
